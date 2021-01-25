@@ -53,7 +53,7 @@
     ],
     "no-empty": false,
     "no-inferrable-types": [
-      true,
+      false,
       "ignore-params"
     ],
     "no-non-null-assertion": true,
@@ -75,11 +75,11 @@
     },
     "space-before-function-paren": {
       "options": {
-        "anonymous": "never",
+        "anonymous": "always",
         "asyncArrow": "always",
-        "constructor": "never",
-        "method": "never",
-        "named": "never"
+        "constructor": "always",
+        "method": "always",
+        "named": "always"
       }
     },
     "typedef": [
